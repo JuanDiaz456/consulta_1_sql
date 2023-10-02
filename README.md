@@ -22,4 +22,5 @@ direccion, telefono, ciudad_nac, fecha_nac FROM Cliente`
 
 ### consulta No. 2
 
-2. para visualizar solamente la identificacion del cliente:``
+2. para visualizar solamente la identificacion del cliente:`SELECT identificacion FROM Cliente`
+![Tabla Cliente](ejem3.png "Tabla Cliente")
