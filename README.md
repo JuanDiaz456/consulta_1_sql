@@ -14,4 +14,12 @@
 1. para visualizar toda la informacion que contiene la tabla cliente se puede incluir con la instruccio SELECT el caracter **\***  caa uno de los campos de la tabla.
 
 - `SELECT * FROM Cliente`
-- `SELECT identificacion, nombre, apellidos, direccion, telefono, ciudad_nac, fecha_nac FROM Cliente`
+![Tabla Cliente](ejem1.png "Tabla Cliente")
+
+- `SELECT identificacion, nombre, apellidos, 
+direccion, telefono, ciudad_nac, fecha_nac FROM Cliente`
+![Tabla Cliente](ejem2.png "Tabla Cliente")
+
+### consulta No. 2
+
+2. para visualizar solamente la identificacion del cliente:``
