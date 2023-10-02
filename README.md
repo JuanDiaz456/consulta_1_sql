@@ -24,3 +24,8 @@ direccion, telefono, ciudad_nac, fecha_nac FROM Cliente`
 
 2. para visualizar solamente la identificacion del cliente:`SELECT identificacion FROM Cliente`
 ![Tabla Cliente](ejem3.png "Tabla Cliente")
+
+### consulta No. 3
+
+3. si se desea obtener los registros cuya identificacion sea ayor o igual a 150, se debe utilizar la clausula `WHERE` que especifica las condiciones que deben reunir los registros que se van a seleccionar: `SELECT * FROM Cliente WHERE identificacion>=150`
+![Tabla Cliente](ejem5.png "Tabla Cliente")
