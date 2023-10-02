@@ -29,3 +29,18 @@ direccion, telefono, ciudad_nac, fecha_nac FROM Cliente`
 
 3. si se desea obtener los registros cuya identificacion sea ayor o igual a 150, se debe utilizar la clausula `WHERE` que especifica las condiciones que deben reunir los registros que se van a seleccionar: `SELECT * FROM Cliente WHERE identificacion>=150`
 ![Tabla Cliente](ejem5.png "Tabla Cliente")
+
+### consulta No. 4
+
+4. se desea obtener los registros cuyos apellidos sean vanegas o Celina, se debe utilizar el operador `IN` que especifica los registros que se requieren visualizar en una tabla
+
+`SELECT apellidos FROM Cliente WHERE apellidos IN('Vanegas', 'Cetina') `
+
+![Tabla Cliente](ejem4.png "Tabla Cliente")
+![Tabla Cliente](ejem7.png "Tabla Cliente")
+
+o se puede utilizar el operador `OR`
+
+`SELECT apellidos FROM Cliente WHERE apellidos = 'Vanegas' OR apellidos = 'Cetina' `
+
+![Tabla Cliente](ejem6.png "Tabla Cliente")
