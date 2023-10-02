@@ -44,3 +44,10 @@ o se puede utilizar el operador `OR`
 `SELECT apellidos FROM Cliente WHERE apellidos = 'Vanegas' OR apellidos = 'Cetina' `
 
 ![Tabla Cliente](ejem6.png "Tabla Cliente")
+
+### consulta No. 5
+
+5. se desea obtener los registros cuya identificacion sea enor de 110 y la ciudad sea cali, se debe utilizar el operador `AND`
+
+`SELECT * FROM Cliente WHERE identificacion<=110 AND ciudad_nac ='Cali'`
+![Tabla Cliente](ejem8.png "Tabla Cliente")
