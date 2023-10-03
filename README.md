@@ -8,7 +8,7 @@
 
 ## Instruccion SELECT
 - permite seleccionar datos de una tabla
-- su formto es: `SELECT campos_tabla FROM nombre tabla``
+- su formto es: `SELECT campos_tabla FROM nombre tabla`
 
 ### consulta No. 1 
 1. para visualizar toda la informacion que contiene la tabla cliente se puede incluir con la instruccio SELECT el caracter **\***  caa uno de los campos de la tabla.
@@ -79,3 +79,15 @@ o se puede utilizar el operador `OR`
 
 `SELECT * FROM Cliente WHERE identificación BETWEEN 110 AND 150`
 ![Tabla Cliente](ejem12.png "Tabla Cliente")
+
+## Instruccion DELETE
+- permite borrar todos o un grupo especifico de registro de una tabla.
+- su formto es: `DELETE FROM nombre tabla`
+
+### Eliminacion No. 1
+
+1. eliminar los registros cuya identificacion sea mayor a 170.
+
+`DELETE FROM Cliente WHERE identificacion > 170`
+![Tabla Cliente](delete1.png "Tabla Cliente")
+(no habian mayores de 170)
