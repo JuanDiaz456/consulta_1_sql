@@ -120,4 +120,4 @@ o se puede utilizar el operador `OR`
 
 ### modelo entidad - Relacion
 ![modelo](modelo.png "modelo")
-
+![tabla2](tabla2.png "tabla2")
