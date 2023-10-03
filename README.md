@@ -51,3 +51,10 @@ o se puede utilizar el operador `OR`
 
 `SELECT * FROM Cliente WHERE identificacion<=110 AND ciudad_nac ='Cali'`
 ![Tabla Cliente](ejem8.png "Tabla Cliente")
+
+### consulta No. 6
+
+6. si se desea obtener los registros cuyos nombres empiecen por la letra a `A`, se debe utilizar el operador `LIKE`que utiliza patrones `%` (todos) y `_` (caracter).
+
+`SELECT * FROM cliente WHERE nombre LIKE 'A%' ` 
+![Tabla Cliente](ejem9.png "Tabla Cliente")
