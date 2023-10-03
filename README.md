@@ -58,3 +58,10 @@ o se puede utilizar el operador `OR`
 
 `SELECT * FROM cliente WHERE nombre LIKE 'A%' ` 
 ![Tabla Cliente](ejem9.png "Tabla Cliente")
+
+### consulta No. 7
+
+7. se desea obtener los registros cuyos nombres contengan la etra 'a' 
+
+`SELECT * FROM Cliente WHERE nombre LIKE '%a%'`
+![Tabla Cliente](ejem10.png "Tabla Cliente")
