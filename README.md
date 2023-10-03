@@ -107,3 +107,17 @@ o se puede utilizar el operador `OR`
 `UPDATE usuario SET ciudad_nac = 'pereira' WHERE identificación=114`
 ![Tabla Cliente](update1.png "Tabla Cliente")
 ![Tabla Cliente](update1_1.png "Tabla Cliente")
+
+## creacion tabla pedido
+### diccionario de datos 
+|campo|tipo de dato|Longitud|
+|-----|------------|--------|
+|***no_pedido**|varchar|15|
+|iden_cliente|varchar|15|
+|fecha_compra|date||
+|fecha_vencimiento|date||
+|observacion|varchar|30|
+
+### modelo entidad - Relacion
+![modelo](modelo.png "modelo")
+
